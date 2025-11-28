@@ -1,12 +1,12 @@
 # Cycle-1-3-IMPLEMENTATION-OF-LINK-STATE-ROUTING-PROTOCOL-OSPF-
-# 🧪 IMPLEMENTATION OF LINK STATE ROUTING PROTOCOL (OSPF)
+# IMPLEMENTATION OF LINK STATE ROUTING PROTOCOL (OSPF)
 
-## 🎯 AIM
+##  AIM
 To connect computers in multiple networks using Open Shortest Path First (OSPF) Routing Protocol and to verify the connectivity between computers.
 
 ---
 
-## 🛠️ EQUIPMENTS REQUIRED
+##  EQUIPMENTS REQUIRED
 
 | S.No | Name                 | Quantity |
 |------|----------------------|----------|
@@ -19,7 +19,7 @@ To connect computers in multiple networks using Open Shortest Path First (OSPF) 
 
 ---
 
-## 🌐 IP ASSIGNMENT
+##  IP ASSIGNMENT
 
 | Name                     | IP Address     | Subnet Mask     | Network      | Class | Gateway        |
 |--------------------------|----------------|-----------------|--------------|-------|----------------|
@@ -34,14 +34,14 @@ To connect computers in multiple networks using Open Shortest Path First (OSPF) 
 
 ---
 
-## 🗺️ NETWORK DIAGRAM
+##  NETWORK DIAGRAM
 *(Insert diagram or screenshot from Packet Tracer)*
 
 ---
 <img width="919" height="378" alt="image" src="https://github.com/user-attachments/assets/ca993ef1-ac39-413a-a79b-bd26f9cc0615" />
 
 
-## 🧭 PROCEDURE
+##  PROCEDURE
 
 1. Open Cisco Packet Tracer software.  
 2. Drag two 2900 switches, two Cisco 1800 routers, and four PC terminals into the workspace.  
@@ -56,7 +56,7 @@ To connect computers in multiple networks using Open Shortest Path First (OSPF) 
 11. Check routing tables using `show ip route` on both routers.
 
 
-## 🔧 ROUTER CONFIGURATION
+##  ROUTER CONFIGURATION
 
 ### Router0 (Delhi)
 
@@ -98,7 +98,7 @@ Router(config-router)# network 192.168.2.0 0.0.0.255 area 0
 Router(config-router)# exit
 Router# write memory
 ```
-## 🔍 VERIFICATION
+##  VERIFICATION
 Check OSPF Neighbors
 ```bash
 Router0# show ip ospf neighbor
@@ -108,7 +108,7 @@ Check Routing Table
 Router0# show ip route
 Router1# show ip route
 ```
-## 📤 OUTPUT
+##  OUTPUT
 ---
 <img width="841" height="1013" alt="image" src="https://github.com/user-attachments/assets/54e37780-24ab-404b-bcdf-566a194afcb9" />
 
